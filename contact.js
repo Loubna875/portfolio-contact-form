@@ -23,7 +23,29 @@ function validateFirstName () {
     return true;
     }
 
-function validateEmail () {}
+function validateLastName () {
+ const value = firstName.value.trim();
+ const regex = /^[A-Za-z]+$/;
+ if (!regex.test(value)) {
+    showError(lastName, "Last name must cintain only letters");
+    return false;
+    }
+    clearError(lastName);
+    return true;
+    }
+    
+function validateEmail () {
+    const value = email.value.trim();
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!regex.test(value)) {
+        showError(email, "Please enter a valid email address");
+        return false;
+        }
+        
+        clearError(email);
+        return true;
+        }
 function validateMessage () {}
 
 function showError () {}
