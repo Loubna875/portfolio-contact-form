@@ -23,7 +23,9 @@ message.addEventListener("input", () => {
         });
 
 
-// Validation functions will be added here
+// Validation functions 
+
+   //First name
 
 function validateFirstName () {
  const value = firstName.value.trim();
@@ -36,6 +38,7 @@ function validateFirstName () {
     return true;
     }
 
+    // Last name
 function validateLastName () {
  const value = firstName.value.trim();
  const regex = /^[A-Za-z]+$/;
@@ -47,6 +50,7 @@ function validateLastName () {
     return true;
     }
     
+    // Email
 function validateEmail () {
     const value = email.value.trim();
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -60,6 +64,7 @@ function validateEmail () {
         return true;
         }
 
+        // Message
 function validateMessage () {
     const value = message.value.trim();
 
@@ -87,6 +92,35 @@ function clearError (input) {
     input.style.borderColor = "green";
 }
 
+// Form submission
+
+form.addEventListener("submit", function(event) {
+    event.preventDefault(); // stop page reload
+
+    const firstValid = validateFirstName();
+    const lastValid = validateLastName();
+    const emailValid = validateEmail();
+    const subjectValid = validateSubject();
+    const phoneValid= validatePhone();
+
+    if(!firstValid || !lastValid || !emailValid || !messageValid || !subjectValid || !phoneValid ) {
+        return; // Errors already shown
+        }
+     // If everything is valid it will show success message
+     successMessage.textContent = 'Thank you ${firstName.value}! I will contact you soon!';
+     successMessage.style.color = "green";
+     
+     setTimeout(() =>  {
+        successMessage.textContent = "";
+        }, 3000);
+
+        clearForm();
+        });
+
+
+    
+
+
+
 
 function clearForm () {}
-
