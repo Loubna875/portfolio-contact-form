@@ -1,1 +1,19 @@
 /* Contact form styles will be added here*/
+
+.error-message {
+    font-size: 0.9rem;
+    color: #dc3545;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    }
+
+    input, select, textarea {
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+    }
+
+    input:focus, select:focus, textarea:focus {
+    border-color: blue;
+    }
+
+

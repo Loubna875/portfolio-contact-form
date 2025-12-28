@@ -49,6 +49,16 @@ function validateLastName () {
     clearError(lastName);
     return true;
     }
+
+    // Subject
+    function validateSubject() {
+        if (subject.value === "") {
+            showError(subject, "Please select a subject");
+            return false;
+            }
+            clearError(subject);
+            return true;
+            }
     
     // Email
 function validateEmail () {
