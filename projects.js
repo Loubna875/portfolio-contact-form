@@ -18,14 +18,14 @@ const projects = [
             link: "https://github.com/loubna875/portfolio-website-loubna/blob/main/assets/dashboard-sales.pbix"
         },
           {
-    id: 3,
-    title: "Weather Dashboard",
-    description: "A weather dashboard that fetches real-time data from an API.",
-    category: "School Projects",
-    technologies: ["JavaScript", "API"],
-    image: "images/weather.jpg",
-    link: "https://example.com"
-  },
+            id: 3,
+            title: " Olympic Games Dashboard",
+            description: "An interactive Power BI dashboard showcasting olympic games.",
+            category: "School Projects",
+            technologies: ["Power BI", "DAX"],
+            image: "assets/olympic-games.jpg",
+            link: "https://github.com/loubna875/portfolio-website-loubna/blob/main/assets/olympic-games-dashboard.pbix""
+        },
   {
     id: 4,
     title: "UI Design Mockups",
