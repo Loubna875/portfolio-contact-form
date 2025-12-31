@@ -50,7 +50,7 @@ const projects = [
     description: "World Energy production 1800-2023 GIF.",
     category: "School Projects",
     technologies: ["R", "Gg animate"],
-    image: "assets/git-r.jpg",
+    image: "assets/gif-r.jpg",
     link: "https://github.com/loubna875/portfolio-website-loubna/blob/main/assets/energy-production.pdf"
   }
 ];
