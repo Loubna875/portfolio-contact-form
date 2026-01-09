@@ -52,7 +52,7 @@ button:hover {
 }
 
 .char-counter {
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   color: #555;
   text-align: right;
   margin-top: 4px;
@@ -67,6 +67,7 @@ button:hover {
 .form-group {
   margin-bottom: 20px;
 }
+
 
 .form-group label {
   display: block;
