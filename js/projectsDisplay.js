@@ -60,4 +60,4 @@ function updateCounter(count) {
 // ------------------------------
 // Initial Load (show only 4)
 // ------------------------------
-displayProjects(projects.slice(0, 4));
+displayProjects(projects);
