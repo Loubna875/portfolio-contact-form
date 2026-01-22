@@ -1,11 +1,11 @@
-# 🌐 Personal Portfolio — Loubna Othmani 
+# 🌐 Personal Portfolio — Loubna 
 
 This is my personal portfolio website showcasing my work in **web development**, **data analysis**, and **interactive dashboards**.  
 The site includes an about section, a dynamic projects gallery, and a fully functional contact form.
 
 ## 👋 About Me
 
-I’m Loubna, a student based in Paris and Umeå with a growing passion for data analysis and web development.  
+I’m Loubna, a student based in Umeå with a growing passion for data analysis and web development.  
 This portfolio represents my journey, my projects, and the skills I’m building along the way.
 ---
 
